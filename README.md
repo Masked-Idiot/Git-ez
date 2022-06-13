@@ -1,2 +1,2 @@
-# Git-for-the-lazy
+# Git-ez
 Making your life just a bit easier
