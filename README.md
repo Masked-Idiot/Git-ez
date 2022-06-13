@@ -1,2 +1,2 @@
 # Git-for-the-lazy
-Just making your life just a bit easier
+Making your life just a bit easier
