@@ -1,9 +1,14 @@
 from os import system as cmd
-from os.path import dirname as path
 from os import listdir as files
+from random import randint as random
 read = open("path.txt", "r")
-cmd("git remote add origin " + read.readlines()[0])
-path = path(read.readlines()[1])
+messages = open("messages.txt", "r").readlines()
+lines = read.readlines()
+cmd("git remote add origin " + lines[0])
+path = lines[1]
+cmd("cd " + path)
+cmd("git add .")
+cmd("git commit -m " + "\"" + messages[random(0, len(messages))] + "\"")
 write = open("path.txt", "w")
 write.write("")
 read.close()
