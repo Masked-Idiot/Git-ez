@@ -1,2 +1,1 @@
-https://github.com/Masked-Idiot/Git-ez.git 
-ECHO is off.
+
