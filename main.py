@@ -11,6 +11,7 @@ path = lines[1]
 cmd("cd " + path)
 cmd("git remote add origin " + lines[0])
 cmd("git add .")
+cmd("git push --set-upstream origin master")
 cmd("git commit -m " + "\"" + message + "\"")
 write = open("path.txt", "w")
 write.write("")
