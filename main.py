@@ -1,5 +1,4 @@
 from os import system as cmd
-from os import listdir as files
 from random import randint as random
 message = ""
 read = open("path.txt", "r")
