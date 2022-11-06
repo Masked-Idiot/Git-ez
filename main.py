@@ -3,7 +3,8 @@ from os import listdir as files
 from random import randint as random
 message = ""
 read = open("path.txt", "r")
-messages = open("messages.txt", "r").readlines()
+messagefile = open("messages.txt", "r")
+messages = messagefile.readlines()
 for i in range(random(0, len(messages))):
 	message = messages[i]
 lines = read.readlines()
@@ -17,7 +18,7 @@ read.close()
 write = open("path.txt", "w")
 write.write("")
 write.close()
-messages.close()
+messagefile.close((
 clear = open("path.txt", "w")
 clear.write("")
 clear.close()
