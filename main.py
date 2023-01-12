@@ -18,7 +18,7 @@ read.close()
 write = open("path.txt", "w")
 write.write("")
 write.close()
-messagefile.close((
+messagefile.close()
 clear = open("path.txt", "w")
 clear.write("")
 clear.close()
